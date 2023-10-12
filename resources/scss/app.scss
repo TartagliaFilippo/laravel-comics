@@ -1,7 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
-.body {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    .jumbotron {
+        height: 200px;
+        width: 100%;
+    }
 }
