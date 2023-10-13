@@ -15,10 +15,12 @@
         @include('partials/_navbar')
     </header>
     <div class="jumbotron">
-        <img src="../../public/images/jumbotron.jpg" alt="">
+        <img src="{{ Vite::asset('public/img/jumbotron.jpg') }}" alt="">
     </div>
     <main>@yield('main-content')</main>
-    <footer>footer</footer>
+    <footer>
+        @include('partials/_footer')
+    </footer>
 </body>
 
 </html>
